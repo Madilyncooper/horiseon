@@ -32,21 +32,15 @@ nav {
     font-size: 20px;
 }
 
-nav ul {
-    list-style-type: none;
-}
-
 nav ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
 
-
-
-a { 
+nav ul li a {  
     color: #ffffff;
     text-decoration: none;
-    
 }
 
 .hero {
@@ -57,21 +51,15 @@ a {
     background-size: cover;
     background-position: center;
 }
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 main section{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    width: 75%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -84,35 +72,40 @@ main section h2 {
 
 main section img {
     max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+#online-reputation-management {
+    float: right;
+    margin-left: 25px;
 }
 
 main section p {
     font-size: 16px;
 }
 
-section article {
-    margin-right: 32px;
+aside {
     padding: 20px;
+    margin-right: 20px;
     clear: both;
     float: right;
     width: 20%;
-    height: 50%;
+    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    margin-bottom: 50px;
     color: #ffffff;
 }
 
-section article h3 {
+aside article h3 {
     text-align: center;
     margin-top: 32px;
 }
 
-section article img {
+aside article img {
     margin: 5px auto;
     max-width: 150px;
     display: block;
-    top-margin: 5px;
 }
 
 footer {
