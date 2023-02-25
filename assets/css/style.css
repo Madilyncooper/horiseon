@@ -2,11 +2,11 @@
     box-sizing: border-box;
     padding: 0;
 }
-
+/* For Entire Document: Put Css properties and selectors in a semantic structure. */
 body {
     background-color: #d9dcd6;
 }
-
+/* Added margin property to keep heading background from getting too big. */
 header {
     padding: 20px;
     margin: -32px 0px;
@@ -31,7 +31,7 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Consolidated selectors and deleted any unecessary repetition. */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -69,13 +69,14 @@ main section{
 main section h2 {
     font-size: 25px;
 }
-
+/* Consolidated selectors that had the same propterty values */
 main section img {
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
-
+/* Created an id for 2nd main seciton because it requires a different 
+value for the float and margin properties. */
 #online-reputation-management {
     float: right;
     margin-left: 25px;
@@ -115,6 +116,6 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+footer h4 {
     font-size: 20px;
 }
